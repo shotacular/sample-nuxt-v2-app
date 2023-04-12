@@ -1,6 +1,9 @@
 <template>
   <div>
     <Header />
+    <button @click="$store.commit('increment')">
+      {{ $store.state.counter }}
+    </button>
     <Footer />
   </div>
 </template>
