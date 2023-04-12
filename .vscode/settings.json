@@ -1,7 +1,7 @@
 {    
     // 規定の検証を無効（ESLintとの重複を避ける）
     "javascript.validate.enable": false,
-    "typescript.validate.enable": true,
+    "typescript.validate.enable": false,
     "html.validate.scripts": false,
     "html.validate.styles": false,
     
@@ -27,10 +27,8 @@
     "vetur.validation.template": false,
 
     // ESLintの設定
-    "editor.codeActionsOnSaveTimeout": 2000,
     "editor.codeActionsOnSave": {
         "source.fixAll.eslint": true,
-        "source.fixAll.stylelint": true
     },
     "eslint.format.enable": true,
 

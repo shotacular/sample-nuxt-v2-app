@@ -5,7 +5,7 @@ module.exports = {
     node: true
   },
   parserOptions: {
-    ecmaVersion: 2020,
+    parser: "babel-eslint",
   },
   extends: [
     '@nuxtjs',
@@ -22,6 +22,7 @@ module.exports = {
   // add your custom rules here
   rules: {
     'vue/multi-word-component-names': 'off',
+    'vue/no-reserved-component-names': 'off',
     'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'off',
     'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
   },
