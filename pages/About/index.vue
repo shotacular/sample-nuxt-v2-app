@@ -1,22 +1,14 @@
 <template>
   <div class="container">
     <div>
-      <Header />
-      Aboutページ
-      <Footer />
+      Aboutページ (layoutはoriginalを採用)
     </div>
   </div>
 </template>
 
 <script>
-import Header from '~/components/Header.vue'
-import Footer from '~/components/Footer.vue'
-
 export default {
-  components: {
-    Header,
-    Footer
-  }
+  layout: 'original'
 }
 </script>
 
